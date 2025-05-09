@@ -27,7 +27,7 @@ def check_guess():
     else:
         print(f"You guessed wrong. Correct number was {random_number}")
         total_count += 1
-        print(f"Your score is {win_count}/{total_count}")
+        print(f"Your score is {win_count}/{total_count}") 
         
         check_guess()
 check_guess()
